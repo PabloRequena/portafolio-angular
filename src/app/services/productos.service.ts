@@ -23,7 +23,6 @@ export class ProductosService {
       .subscribe( (resp: Producto[]) => {
 
         this.productos = resp;
-
         this.cargando = false;
 
       });
